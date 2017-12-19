@@ -49,3 +49,23 @@ sudo apt-get install code
 # install git kraken
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
 sudo dpkg -i gitkraken-amd64.deb
+
+# install theme: Arc Theme Dark
+sudo add-apt-repository ppa:noobslab/themes -y
+sudo apt-get update
+sudo apt-get install arc-theme -y
+
+# install theme: Adapta Dark
+sudo apt-add-repository ppa:tista/adapta -y
+sudo apt-get update
+sudo apt-get install adapta-gtk-theme -y
+
+# install icon: Paper
+sudo add-apt-repository ppa:snwh/pulp -y
+sudo apt-get update
+sudo apt-get install paper-icon-theme -y
+
+# install icon: Vivacious Colors
+sudo add-apt-repository ppa:ravefinity-project/ppa -y
+sudo apt-get update
+sudo apt-get install vivacious-colors -y
