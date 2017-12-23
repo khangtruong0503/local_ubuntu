@@ -4,6 +4,10 @@
 # update system
 sudo apt update -y
 
+# make terminal possible open tab
+# Ctrl + Shift + t: open new tab
+sudo apt-get install xdotool -y
+
 # install zsh: shell theme
 sudo apt-get install zsh -y
 
