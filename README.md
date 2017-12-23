@@ -1,1 +1,1 @@
-# local_ubuntu_mate
+# local_ubuntu
