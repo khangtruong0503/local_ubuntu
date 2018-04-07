@@ -17,6 +17,9 @@ sudo chsh -s $(which zsh)
 # install tweak tool
 sudo apt-get install unity-tweak-tool
 
+# install htop task manager
+sudo apt-get install htop
+
 # install unikey
 sudo apt-get install ibus-unikey
 ibus restart
@@ -43,6 +46,10 @@ sudo npm install @angular/cli -g
 # install google chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb -y
+
+# install flash for browser
+sudo apt-get install flashplugin-installer
+sudo apt-get install ubuntu-restricted-extras 
 
 # install code editor: visual studio code
 sudo curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
