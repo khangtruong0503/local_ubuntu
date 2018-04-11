@@ -76,6 +76,9 @@ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sour
 sudo apt-get update
 sudo apt-get install jenkins -y
 
+# force install file
+sudo apt-get install -f -y
+
 
 
 
