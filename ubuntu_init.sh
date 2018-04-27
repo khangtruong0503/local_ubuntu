@@ -27,6 +27,9 @@ sudo apt-get install nodejs -y
 # install yarn: package manager
 sudo npm i yarn -g
 
+# install nodemon: restart/reload server whenever the code is modified
+sodu npm i nodemon -g
+
 # install bower: frontend libaries manager
 sudo npm i bower -g
 
