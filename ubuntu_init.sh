@@ -21,7 +21,7 @@ sudo apt-get install curl -y
 sudo apt-get install git -y
 
 # install nodejs v9
-sudo curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+sudo curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install nodejs -y
 
 # install yarn: package manager
@@ -39,6 +39,12 @@ sudo npm i gulp-cli -g
 # install google chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb -y
+
+# install git kraken
+wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
+sudo dpkg -i gitkraken-amd64.deb
+# fix missing package for git kraken
+sudo apt install libgnome-keyring0
 
 # install flash for browser
 sudo apt-get install flashplugin-installer
